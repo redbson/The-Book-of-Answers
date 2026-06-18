@@ -98,3 +98,7 @@ receive/sample mode.
 - The app does **not** transmit on SubGHz; all radio use is receive/sample only.
 - BLE sampling is skipped while Bluetooth is active to avoid disrupting it.
 - NFC scanning is short-lived and only runs while a page is opening.
+
+## License
+
+[MIT](LICENSE) © redbson
