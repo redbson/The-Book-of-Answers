@@ -9,9 +9,6 @@ radio and sensor state of the Flipper at the moment you ask (see
 [How answers are generated](#how-answers-are-generated)). The UI never shows a
 signal scanner; it stays a quiet book of answers.
 
-> A Chinese edition lives in the sibling project [`../BoA_zh`](../BoA_zh)
-> (《答案之书》), which renders CJK text via an embedded subset font.
-
 ## Experience
 
 The app has three screens:
@@ -87,7 +84,14 @@ The installed app appears under **Apps → Tools → Answer Book**.
 | `images/book_closed.png` | Idle cover illustration (48×30). |
 | `images/book_flip_0..6.png` | Page-turn animation frames (48×30). |
 | `images/book_turn/` | The same frames as a uFBT `IconAnimation` bundle (reserved for future use). |
-| `prd.md` | Original product brief (Signal Oracle). |
+| `changelog.md` | Version history (used by the Flipper App Catalog). |
+| `screenshots/` | qFlipper screenshots used in the App Catalog listing. |
+
+## Requirements
+
+Runs on a stock **Flipper Zero** — no extra hardware, GPIO modules, or
+expansion boards required. Uses only the built-in radios and sensors, all in
+receive/sample mode.
 
 ## Notes
 

@@ -1,0 +1,13 @@
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/redbson/The-Book-of-Answers.git
+    commit_sha: REPLACE_WITH_COMMIT_SHA_AFTER_PUSHING_SCREENSHOTS
+short_description: "A book of answers that replies to your question from the Flipper's live radio and sensor state."
+description: "@README.md"
+changelog: "@changelog.md"
+author: "redbson"
+screenshots:
+  - screenshots/1.png
+  - screenshots/2.png
+  - screenshots/3.png

@@ -5,9 +5,9 @@ App(
     entry_point="answer_book_app",
     stack_size=6 * 1024,
     fap_category="Tools",
-    fap_version="0.1.0",
+    fap_version="0.1",
     fap_icon="answer_book.png",
     fap_icon_assets="images",
     fap_description="A world-state book of answers",
-    fap_author="Codex",
+    fap_author="redbson",
 )
