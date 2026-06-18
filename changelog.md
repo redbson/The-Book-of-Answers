@@ -3,11 +3,10 @@
 ## 0.1
 
 - Initial release.
-- Cover / opening-animation / page screens for a "book of answers" oracle.
+- Cover, opening-animation, and page screens for a book-of-answers oracle.
 - Answers seeded from live device state: BLE, SubGHz, and NFC sampling
-  (receive only), device RTC/battery telemetry, and the hardware RNG, folded
-  into an FNV-1a hash.
+  (receive only), device time and battery telemetry, and the hardware random
+  generator, folded into a 32-bit hash.
 - Five answer categories (Forward, Observe, Warning, Explore, Reflection) with
-  Normal / Rare / Legendary rarity rolls.
-- Each opened page is appended as a JSON record to
-  `/ext/apps_data/answer_book/answers.log`.
+  Normal, Rare, and Legendary rarity rolls.
+- Each opened page is appended as a record to the app data log.
